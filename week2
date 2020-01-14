@@ -39,3 +39,28 @@
             int c = 2;
             int div = g / c;
             System.Console.WriteLine("The div od {0} and {1} is {2}", g,c, div);
+            
+             string name = "AviPreet";
+            int age = 19;
+            string email = "avibajwa63112@gmail.com";
+
+            int a = 50;
+            int b = 10;
+            int c = 5;
+            int d = 1;
+            
+            int sum = a + b + c + d;
+            int sub = a - b - c - d;
+            int multi = a * b * c * d;
+            int div = a / b / c / d;
+            System.Console.WriteLine(" My name is " + name);
+            System.Console.WriteLine(" My age is " + age);
+
+            System.Console.WriteLine("My email address is " + email);
+            System.Console.WriteLine("The sum of four numbers {0} , {1} , {2} and {3} is {4}", a, b, c, d, sum);
+            System.Console.WriteLine("The sub of four numbers {0} , {1} , {2} and {3} is {4}", a, b, c, d, sub);
+            System.Console.WriteLine("The multiplication of four numbers {0} , {1} , {2} and {3} is {4}", a, b, c, d, multi);
+            System.Console.WriteLine("The Division of four numbers {0} , {1} , {2} and {3} is {4}", a, b, c, d, div);
+
+            
+            
