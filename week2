@@ -1,0 +1,41 @@
+ Console.WriteLine("Hello World!");
+             int number = 345;
+             int square = number * number;
+             System.Console.WriteLine("the square of {0} is {1}",number, square);
+
+            int number1 = 45;
+             int number2 = 34;
+             int number3 = 45;
+             int number4 = 78;
+             int sum2 = number1 + number2 + number3 + number4;
+             System.Console.WriteLine("The sum2 of {0} ,{1},{2} and {3} is {4}", number1,number2, number3, number4, sum2);
+
+
+
+            int number5 = 545;
+            int number6 = 334;
+            int number7 = 455;
+            int number8 = 785;
+            int sum1 = number5 + number6 - number7 / number8;
+            System.Console.WriteLine("The sum1 of {0} ,{1},{2} and {3} is {4}", number5, number6, number7, number8, sum1);
+
+            int a = 456;
+            int sum = a + a;
+            System.Console.WriteLine("The sum od {0} and {1} is {2}", a,a, sum);
+
+            int e = 456;
+            int b = 350;
+            int sub = e - b;
+            System.Console.WriteLine("The sub od {0} and {1} is {2}", e,b, sub);
+
+
+            int d = 456;
+            int multi = d * d;
+            System.Console.WriteLine("The multi od {0} and {1} is {2}", d,d,multi);
+
+
+
+            int g = 456;
+            int c = 2;
+            int div = g / c;
+            System.Console.WriteLine("The div od {0} and {1} is {2}", g,c, div);
