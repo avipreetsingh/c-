@@ -63,7 +63,7 @@
             System.Console.WriteLine("The Division of four numbers {0} , {1} , {2} and {3} is {4}", a, b, c, d, div);
             
             
-            
+   ******************************************************************************************         
               double currentReading;
             Console.WriteLine("Current meter reading: ");
             currentReading = Convert.ToDouble(Console.ReadLine());
@@ -106,6 +106,33 @@
                 Console.WriteLine(" you are good");
             }
 
+
+****************************************************
+
+ double firstnumber;
+            Console.WriteLine("Enter the firstnumber ");
+            firstnumber = Convert.ToDouble(Console.ReadLine());
+
+            double secondnumber;
+            Console.WriteLine("Enter the secondnumber ");
+            secondnumber = Convert.ToDouble(Console.ReadLine());
+
+            double thirdnumber;
+            Console.WriteLine("Enter the thirdnumber ");
+            thirdnumber = Convert.ToDouble(Console.ReadLine());
+
+            if(firstnumber > secondnumber && firstnumber > thirdnumber)
+            {
+                Console.WriteLine("Highest number is " + firstnumber);
+            }
+            else if(secondnumber > firstnumber && secondnumber > thirdnumber)
+            {
+                Console.WriteLine("Highest number is " + secondnumber);
+            }
+            else
+            {
+                Console.WriteLine("Highest number is " + thirdnumber);
+            }
 
             
             
