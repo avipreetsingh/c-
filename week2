@@ -61,6 +61,51 @@
             System.Console.WriteLine("The sub of four numbers {0} , {1} , {2} and {3} is {4}", a, b, c, d, sub);
             System.Console.WriteLine("The multiplication of four numbers {0} , {1} , {2} and {3} is {4}", a, b, c, d, multi);
             System.Console.WriteLine("The Division of four numbers {0} , {1} , {2} and {3} is {4}", a, b, c, d, div);
+            
+            
+            
+              double currentReading;
+            Console.WriteLine("Current meter reading: ");
+            currentReading = Convert.ToDouble(Console.ReadLine());
+
+            const double lastReading = 39803;
+            Console.WriteLine("Last month's meter reading: " + lastReading);
+
+            double kwh = currentReading - lastReading;
+            Console.WriteLine("Total kWh's used:" + kwh);
+
+            const double chargePerKwh = .095;
+            Console.WriteLine("Charge per kWh: " + chargePerKwh.ToString("c"));
+
+            double TotalCharges = kwh * chargePerKwh;
+            Console.WriteLine("Total Energy Charge: " + TotalCharges.ToString("c"));
+
+
+            const double monthlyFees = 10;
+            Console.WriteLine("Standard monthly fees: " + monthlyFees);
+
+            double TotalBill = TotalCharges + monthlyFees;
+            Console.WriteLine("Total Bill: " + TotalBill.ToString("c"));
+            double discount = 0.05;
+
+            double discountcharge = discount * TotalBill;
+
+            double totalcharge = TotalBill - discountcharge;
+
+            if (currentReading > 50000 || kwh == 1000)
+            {
+                Console.WriteLine(" you are going to pay extra cost");
+
+                Console.WriteLine(" you have 50% discount:  " + discount);
+
+                Console.WriteLine(" final charges is " + totalcharge.ToString("c"));
+
+            }
+            else
+            {
+                Console.WriteLine(" you are good");
+            }
+
 
             
             
